@@ -7,15 +7,15 @@ import Home from './pages/Home';
 function App() {
   return (
     <div>
-      <Navbar />
-      <div className='container'>
-        <BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <div className='container'>
           <Route path='/' component={Home} exact />
           <Route path='/Skills' component={Skills} />
           <Route path='/Projects' component={Projects} />
           <Route path='/Contact' component={Contact} />
-        </BrowserRouter>
-      </div>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

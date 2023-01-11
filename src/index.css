@@ -3,3 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.active {
+  color: white;
+}
+a {
+  text-decoration: none !important;
+}
