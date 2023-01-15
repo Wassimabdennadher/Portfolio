@@ -1,19 +1,23 @@
 import Navbar from './components/navbar'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import Skillsdetails from './pages/Skillsdetails';
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
         <div className='container'>
+          <Switch>
           <Route path='/' component={Home} exact />
-          <Route path='/Skills' component={Skills} />
-          <Route path='/Projects' component={Projects} />
-          <Route path='/Contact' component={Contact} />
+          <Route path='/skills/:identifier' component={Skillsdetails} />
+          <Route path='/skills' component={Skills} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/contact' component={Contact} />
+          </Switch>
         </div>
       </BrowserRouter>
     </div>
