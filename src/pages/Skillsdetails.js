@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import Notfound from "./Notfound";
 
 function Skillsdetails() {
     const param = useParams()
@@ -29,7 +30,7 @@ function Skillsdetails() {
                     <img className="mt-2" src={tech.image} alt="tech" style={{width:200}}/>
                     <p className="mt-2 fs-5">{tech.description}</p>
                 </div>
-            ) : <h2>Tech not found</h2>
+            ) : <Notfound />
             }
         </div>
 

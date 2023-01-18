@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Skillsdetails from './pages/Skillsdetails';
+import Notfound from './pages/Notfound';
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
           <Route path='/skills' component={Skills} />
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
+          <Route component={Notfound} />
           </Switch>
         </div>
       </BrowserRouter>
