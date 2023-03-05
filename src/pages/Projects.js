@@ -14,12 +14,7 @@ function Projects() {
       ghubLink: ' https://wassimabdennadher.github.io/pricing/',
       description : 'A simple pricing web page created with HTML and CSS '
     },
-    {
-      id: 1,
-      pName: 'Business land',
-      ghubLink: 'https://wassimabdennadher.github.io/Business-land/',
-      description : 'A simple web page created with HTML and CSS '
-    }
+
   ]
   return (
     <div className='row mt-5'>
