@@ -9,12 +9,17 @@ function Projects() {
       description : 'A simple web page created with HTML and CSS '
     },
     {
-      id: 1,
+      id: 2,
       pName: 'Pricing',
       ghubLink: ' https://wassimabdennadher.github.io/pricing/',
       description : 'A simple pricing web page created with HTML and CSS '
     },
-
+    {
+      id: 3,
+      pName: 'Mercado project',
+      ghubLink: 'https://wassim-abdennadher-mercado.vercel.app/items',
+      description : 'A full react project with a frontend and backend parts '
+    }
   ]
   return (
     <div className='row mt-5'>
