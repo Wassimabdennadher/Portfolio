@@ -19,6 +19,12 @@ function Projects() {
       pName: 'Mercado project',
       ghubLink: 'https://wassim-abdennadher-mercado.vercel.app/items',
       description : 'A full react project with a frontend and backend parts '
+    },
+    {
+      id: 4,
+      pName: 'Fashion Model (Text Scramble)',
+      ghubLink: 'https://wassimabdennadher.github.io/Fashionmodel',
+      description : 'HTML, CSS and Javascript project including scramble text'
     }
   ]
   return (
