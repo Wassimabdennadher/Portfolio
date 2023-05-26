@@ -28,7 +28,7 @@ function Projects() {
     },
     {
       id: 5,
-      pName: 'Fashion Model (Text Scramble)',
+      pName: 'E-commerce',
       ghubLink: 'https://e-commerce-seven-rho.vercel.app/',
       description: 'Create a new E-commerce website'
     }
